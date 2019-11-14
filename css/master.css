@@ -1,0 +1,19 @@
+div.wrapper {
+  background: red;
+}
+#index_page {
+}
+
+.box1{
+  width: 100px;
+  height: 100px;
+  margin-left: 200px;
+  background-color: black;
+  transition-duration: 200ms;
+  transition-property: width,background-color;
+  }
+
+  .box1:hover{
+  width: 500px;
+  background-color: purple;
+  }
